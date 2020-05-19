@@ -2,7 +2,7 @@
 
 import pymysql
 
-#read all database names
+#read all database names in mysql
 def ReadDatabaseName():
     conn=pymysql.connect(host='localhost',user='root',password='password',charset='utf8mb4')
     sql = "SHOW DATABASES"
